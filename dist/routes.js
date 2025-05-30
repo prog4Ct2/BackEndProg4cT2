@@ -10,6 +10,7 @@ class Routes {
     }
     routes(app) {
         this.usuarioRoutes.routes(app);
+        this.zonaRouters.routes(app);
     }
 }
 exports.Routes = Routes;

@@ -16,7 +16,7 @@ class ZonaController {
     constructor() {
         this.crearZona = (req, res) => {
             const nuevoZona = new zona_model_1.default({
-                zona: req.body.apellidoPaterno,
+                zona: req.body.zona,
             });
             nuevoZona.save()
                 .then(zonaCreado => {
