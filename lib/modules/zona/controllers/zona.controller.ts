@@ -6,7 +6,7 @@ export class ZonaController {
     crearZona = (req: Request, res: Response) => {
         const nuevoZona = new Zona(
             {
-                zona: req.body.apellidoPaterno,
+                zona: req.body.zona,
                 
             }
         );
